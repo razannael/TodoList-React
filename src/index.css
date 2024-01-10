@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+:root {
+  font-family: "Salsa", cursive;
+  color: rgb(75, 60, 78);
+  position: relative;
+  height: 100vh;
+  background-color: rgba(161, 132, 189, 0.349);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
