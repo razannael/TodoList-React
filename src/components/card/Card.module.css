@@ -1,4 +1,4 @@
-.card{
+.card , .cardCol{
     background: #dad1df;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.089);
     border-radius: 10px;
@@ -8,9 +8,10 @@
     align-items: center;
     width: 100%;
 }
-.taskName{
-    display: flex;
+.cardCol{
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    gap:12px;
+    align-items: flex-start;
+    gap: 29px;
+    width: 70%;
 }
