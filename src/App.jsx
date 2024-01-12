@@ -1,4 +1,4 @@
-import { Container , Title , Typography} from './components'
+import { Container , Form, Title , Typography} from './components'
 import './App.css'
 import TodoList from './components/todoList/TodoList.jsx'
 import Card from './components/card/Card.jsx'
@@ -9,12 +9,16 @@ function App() {
     <Container >
     <Title/> 
    <Typography fontSize={18} bold marginTop={"25px"} marginBottom={"17px"}>List of Tasks</Typography>
-    <Container flex>
+
+    <Container flexrow>
     <TodoList/>
+    <Container flexcol>
     <Card col>
     <Typography fontSize={18} bold marginTop={"25px"}>List of Tasks</Typography>
     <ProgressBar progress={"60%"}/>
     </Card>
+     <Form/>
+    </Container>
     </Container>
     </Container>
   )

@@ -1,11 +1,12 @@
 .actionButton{
     background: linear-gradient(180deg, #b83dff 0%, rgba(184, 61, 255, 0.63) 0.01% , #d5bae4 100%);
     border-radius: 100%;
-    width: 38px;
-    height: 39px;
+    width: 30px;
+    height: 31px;
     position: relative;
     cursor: pointer;
     transition: all 0.4s;
+    margin-left: 2px;
 }
 
 .actionButton:hover{

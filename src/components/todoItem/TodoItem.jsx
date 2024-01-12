@@ -10,7 +10,7 @@ export default function TodoItem() {
     <>
       <div className={styles.taskName}>
       <Checkbox/>
-      <Typography fontSize={15} > Do the dishes </Typography>
+      <Typography fontSize={17} > <span>Do The Dishes</span></Typography>
       </div>
       <div className={styles.actionButtons}>
       <ActionButton icon={pencil} handleClick={()=>null}/>

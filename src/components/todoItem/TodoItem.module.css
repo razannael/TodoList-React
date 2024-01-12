@@ -7,5 +7,6 @@
 .actionButtons{
     display: flex;
     flex-direction: row;
-    gap: 21px;
+    gap: 15px;
+    margin-left: 6px;
 }

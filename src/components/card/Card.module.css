@@ -6,12 +6,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width:100%
 }
 .cardCol{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 29px;
-    width: 70%;
+    gap: 14px;
 }
