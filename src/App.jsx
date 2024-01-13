@@ -3,6 +3,7 @@ import './App.css'
 import TodoList from './components/todoList/TodoList.jsx'
 import Card from './components/card/Card.jsx'
 import ProgressBar from './components/progressBar/ProgressBar.jsx'
+import CategoriesList from './components/categoriesList/CategoriesList.jsx'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
      <Form/>
     </Container>
     </Container>
+    <CategoriesList/>
     </Container>
   )
 }

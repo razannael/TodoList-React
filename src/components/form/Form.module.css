@@ -4,16 +4,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 10px;
+    gap: 8px;
 }
 .form input{
     background-color: #FDFDFD;
     border: 1px solid rgb(92, 46, 94);
     border-radius: 5px;
-    height: 25px;
+    height: 22px;
     width: 100%;
     outline: none;
-    padding: 0px 10px;
+    padding: 0px 8px;
     margin-top: 5px;
 }
 .inputContainer{

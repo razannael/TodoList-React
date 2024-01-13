@@ -1,0 +1,28 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap:12px;
+}
+.list div{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.list div:hover{
+    transform: translateY(-2px);
+}
+.list p{
+    background: linear-gradient(180deg, #d23dff 0%, rgba(168, 61, 255, 0.63) 0.01%, #5d3469 69.27%),
+    linear-gradient(180deg, #b83dff 0%, rgba(146, 57, 197, 0.63) 0.01%, #d05bf3 100%),
+    linear-gradient(180deg, #d83dff 0%, rgb(213,219,238,0.63) 32.029%, #7e488f 69.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: capitalize;
+    font-size: 18px;
+}
