@@ -11,14 +11,14 @@ function App() {
   return (
     <Container >
     <Title/> 
-   <Typography fontSize={18} bold marginTop={"25px"} marginBottom={"17px"}>List of <span style={{textTransform : "capitalize"}}>{category}</span> Tasks</Typography>
+   <Typography fontSize={16} bold marginTop={"15px"} marginBottom={"10px"}>List of <span style={{textTransform : "capitalize"}}>{category}</span> Tasks</Typography>
 
     <Container flexrow>
     <TodoList/>
     <Container flexcol>
     <Card col>
-    <Typography fontSize={18} bold marginTop={"25px"}>List of Tasks</Typography>
-    <ProgressBar progress={"60%"}/>
+    <Typography fontSize={18} bold marginTop={"5px"}>Your Progress</Typography>
+    <ProgressBar />
     </Card>
      <Form/>
     </Container>

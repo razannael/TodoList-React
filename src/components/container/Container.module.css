@@ -2,10 +2,10 @@
     background: linear-gradient(180deg, rgba(185, 159, 196, 0.637)0% , #c39dca 32.29%, rgba(168, 136, 189, 0.933) 69.27%, rgba(192, 140, 199, 0.76) 100% );
     box-shadow: 8px 13px 19px -3px rgba(0, 0, 0, 0.116);
     border-radius: 30px;
-    width: 80%;
-    padding: 20px 55px;
+    width: 66%;
+    padding: 20px 30px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

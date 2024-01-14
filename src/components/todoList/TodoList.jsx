@@ -2,10 +2,9 @@ import Card from "../card/Card.jsx"
 import TodoItem from "../todoItem/TodoItem.jsx"
 import Typography from "../typography/Typography.jsx";
 import styles from "./TodoList.module.css"
-import { useSelector } from "react-redux";
+import { useFilterTodos } from "../../hooks/useFilterTodos.jsx";
 export default function TodoList() {
-  const {todos, category} = useSelector((state) => state.todos);
-  const displayedTodos = todos.filter((todo)=>todo.category === category)
+ const displayedTodos = useFilterTodos();
   return (
     <div className={styles.todolist}>
       {displayedTodos.length >0 ? (

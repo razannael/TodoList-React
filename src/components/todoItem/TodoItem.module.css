@@ -10,3 +10,10 @@
     gap: 15px;
     margin-left: 6px;
 }
+.taskName input{
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    outline: none;
+}

@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     gap:12px;
 }
 .list div{
@@ -15,6 +15,9 @@
 .list div:hover{
     transform: translateY(-2px);
 }
+.list div img{
+    width: 30%;
+}
 .list p{
     background: linear-gradient(180deg, #d23dff 0%, rgba(168, 61, 255, 0.63) 0.01%, #5d3469 69.27%),
     linear-gradient(180deg, #b83dff 0%, rgba(146, 57, 197, 0.63) 0.01%, #d05bf3 100%),
@@ -24,5 +27,5 @@
     background-clip: text;
     text-fill-color: transparent;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 15px;
 }

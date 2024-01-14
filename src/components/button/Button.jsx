@@ -1,8 +1,8 @@
 import styles from './Button.module.css'
 
-export default function Button() {
+export default function Button({handleAddTodo}) {
   return (
-    <button className={styles.button}>
+    <button onClick={()=>handleAddTodo()} className={styles.button}>
       Add
     </button>
   )
