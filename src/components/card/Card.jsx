@@ -1,9 +1,11 @@
 
 import styles from './Card.module.css'
 
-export default function Card({children, col}) {
+export default function Card({children, col , handleClick}) {
   return (
-    <div className={col ? styles.cardCol : styles.card}>
+    <div 
+    onClick={() => (handleClick ? handleClick() : null)}
+     className={col ? styles.cardCol : styles.card}>
       {children}
     </div>
   )

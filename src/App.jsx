@@ -4,12 +4,14 @@ import TodoList from './components/todoList/TodoList.jsx'
 import Card from './components/card/Card.jsx'
 import ProgressBar from './components/progressBar/ProgressBar.jsx'
 import CategoriesList from './components/categoriesList/CategoriesList.jsx'
+import { useSelector } from 'react-redux'
 
 function App() {
+  const { category} = useSelector((state) => state.todos);
   return (
     <Container >
     <Title/> 
-   <Typography fontSize={18} bold marginTop={"25px"} marginBottom={"17px"}>List of Tasks</Typography>
+   <Typography fontSize={18} bold marginTop={"25px"} marginBottom={"17px"}>List of <span style={{textTransform : "capitalize"}}>{category}</span> Tasks</Typography>
 
     <Container flexrow>
     <TodoList/>

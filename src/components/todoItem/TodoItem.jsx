@@ -5,12 +5,12 @@ import ActionButton from '../ActionButton/ActionButton.jsx'
 import trash from '../../assets/delete.svg'
 import pencil from '../../assets/edit-svgrepo-com.svg'
 
-export default function TodoItem() {
+export default function TodoItem({todo}) {
   return (
     <>
       <div className={styles.taskName}>
-      <Checkbox/>
-      <Typography fontSize={17} > <span>Do The Dishes</span></Typography>
+      <Checkbox todo ={todo}/>
+      <Typography fontSize={17} > <span>{todo.name}</span></Typography>
       </div>
       <div className={styles.actionButtons}>
       <ActionButton icon={pencil} handleClick={()=>null}/>
